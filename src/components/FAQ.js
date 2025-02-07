@@ -6,27 +6,27 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How does the booking system work?",
-      answer: "Members can book sessions through our online booking portal or mobile app. You can reserve time slots up to 2 weeks in advance, with Premium members getting priority booking windows."
+      answer: "Golden Eagle members can book up to 14 days in advance and hold 3 sessions on the Tee sheet at a time. Silver Savings members can book up to 7 days in advance and hold 1 session at a time. All bookings can be made through our online booking portal."
+    },
+    {
+      question: "What are the access hours?",
+      answer: "Golden Eagle members enjoy 24/7 club access. Silver Savings members have access during off-peak hours: Monday-Friday 12am-4pm & 9pm-12am, and Saturday/Sunday 12am-8am & 9pm-12am."
+    },
+    {
+      question: "Can I bring guests?",
+      answer: "Yes! Golden Eagle members can bring up to 3 guest golfers per session, while Silver Savings members can bring 1 guest golfer. Guests must be accompanied by a member at all times."
     },
     {
       question: "What technology do you use?",
       answer: "We use TrackMan 4 simulator technology, which provides the most accurate ball and club tracking in the industry. This includes detailed analytics for every shot and realistic course play."
     },
     {
-      question: "Can I bring guests?",
-      answer: "Yes! Basic members can bring 1 guest per session, while Premium members can bring up to 3 guests. Guests must be accompanied by a member at all times."
-    },
-    {
-      question: "How do I access the facility?",
-      answer: "Members receive a unique access code that works during their booked sessions. For 24/7 access members, the code works at any time. The facility is secured and monitored around the clock."
-    },
-    {
       question: "What courses can I play?",
       answer: "Our simulator features over 100 world-famous courses, including Pebble Beach, St Andrews, Augusta National, and many more. New courses are added regularly."
     },
     {
-      question: "Do you offer instruction?",
-      answer: "Yes, we partner with PGA-certified instructors who can help improve your game. Lessons can be booked separately through our pro shop."
+      question: "What exclusive perks come with membership?",
+      answer: "Golden Eagle members receive custom merchandise gifts, access to member mixers, and can reserve the entire Fairway Club (all bays) for a 2-hour private golf experience once per year. Both membership tiers include unlimited golf sessions during their respective access hours."
     }
   ]
 

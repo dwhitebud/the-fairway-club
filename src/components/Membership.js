@@ -65,7 +65,7 @@ const Membership = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-6 sm:mt-20 lg:mt-20 lg:max-w-none lg:grid-cols-3 lg:gap-x-8"
+          className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-6 sm:mt-20 lg:mt-20 lg:max-w-4xl lg:grid-cols-2 lg:gap-x-8"
         >
           {tiers.map((tier, index) => (
             <motion.div
