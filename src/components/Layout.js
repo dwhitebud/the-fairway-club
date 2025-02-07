@@ -10,10 +10,6 @@ const Layout = ({ children }) => {
 
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Simulators', href: '/simulators' },
-    { name: 'Pricing', href: '/pricing' },
-    { name: 'Contact', href: '/contact' },
   ]
 
   return (
@@ -132,15 +128,7 @@ const Layout = ({ children }) => {
       {/* Footer */}
       <footer className="bg-gray-900 text-white">
         <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-          <div className="flex justify-center space-x-6 md:order-2">
-            <Link to="/privacy" className="text-gray-400 hover:text-gray-300">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="text-gray-400 hover:text-gray-300">
-              Terms of Service
-            </Link>
-          </div>
-          <div className="mt-8 md:order-1 md:mt-0">
+          <div className="mt-8 md:order-1 md:mt-0 w-full">
             <p className="text-center text-xs leading-5 text-gray-400">
               &copy; {new Date().getFullYear()} The Fairway Club. All rights reserved.
             </p>

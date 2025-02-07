@@ -78,12 +78,9 @@ const FAQ = () => {
             ))}
           </dl>
           <div className="mt-10 pt-8 text-center">
-            <Link
-              to="/contact"
-              className="text-sm font-semibold leading-6 text-primary hover:text-primary-dark"
-            >
-              Still have questions? Contact us <span aria-hidden="true">&rarr;</span>
-            </Link>
+            <p className="text-sm font-semibold leading-6 text-primary">
+              Have more questions? We're here to help!
+            </p>
           </div>
         </motion.div>
       </div>
