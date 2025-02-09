@@ -6,6 +6,22 @@ import { FiCheck } from 'react-icons/fi'
 const Membership = () => {
   const tiers = [
     {
+      name: 'Platinum Albatross',
+      id: 'platinum-albatross',
+      price: '479',
+      description: 'Dual Membership-Unlimited golf sessions for 2 members, along with all of the benefits of the Golden Eagle membership, and more.',
+      features: [
+        '24/7 Club Access',
+        'Can hold 5 total sessions on the Tee sheet at a time',
+        'Can book 30 days in advance',
+        'May Bring 3 Guest Golfers',
+        'Primo Partnership - 25% off store-wide promo code on Primo Golf apparel',
+        'PXG Partnership - Private club fitting w/master fitter and a 20% discount on clubs',
+        'Custom merch gifts and member mixers',
+        'Reserve The Fairway Club (all bays) for 3 hour private golf experience (once per year)',
+      ],
+    },
+    {
       name: 'Golden Eagle',
       id: 'golden-eagle',
       price: '249',
@@ -65,7 +81,7 @@ const Membership = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-6 sm:mt-20 lg:mt-20 lg:max-w-4xl lg:grid-cols-2 lg:gap-x-8"
+          className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-6 sm:mt-20 lg:mt-20 lg:max-w-none lg:grid-cols-3 lg:gap-x-8"
         >
           {tiers.map((tier, index) => (
             <motion.div

@@ -6,15 +6,15 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How does the booking system work?",
-      answer: "Golden Eagle members can book up to 14 days in advance and hold 3 sessions on the Tee sheet at a time. Silver Savings members can book up to 7 days in advance and hold 1 session at a time. All bookings can be made through our online booking portal."
+      answer: "Platinum Albatross members can book up to 30 days in advance and hold 5 sessions on the Tee sheet. Golden Eagle members can book up to 14 days in advance and hold 3 sessions. Silver Savings members can book up to 7 days in advance and hold 1 session at a time. All bookings can be made through our online booking portal."
     },
     {
       question: "What are the access hours?",
-      answer: "Golden Eagle members enjoy 24/7 club access. Silver Savings members have access during off-peak hours: Monday-Friday 12am-4pm & 9pm-12am, and Saturday/Sunday 12am-8am & 9pm-12am."
+      answer: "Platinum Albatross and Golden Eagle members enjoy 24/7 club access. Silver Savings members have access during off-peak hours: Monday-Friday 12am-4pm & 9pm-12am, and Saturday/Sunday 12am-8am & 9pm-12am."
     },
     {
       question: "Can I bring guests?",
-      answer: "Yes! Golden Eagle members can bring up to 3 guest golfers per session, while Silver Savings members can bring 1 guest golfer. Guests must be accompanied by a member at all times."
+      answer: "Yes! Both Platinum Albatross and Golden Eagle members can bring up to 3 guest golfers per session, while Silver Savings members can bring 1 guest golfer. Guests must be accompanied by a member at all times."
     },
     {
       question: "What technology do you use?",
@@ -26,7 +26,7 @@ const FAQ = () => {
     },
     {
       question: "What exclusive perks come with membership?",
-      answer: "Golden Eagle members receive custom merchandise gifts, access to member mixers, and can reserve the entire Fairway Club (all bays) for a 2-hour private golf experience once per year. Both membership tiers include unlimited golf sessions during their respective access hours."
+      answer: "Platinum Albatross members receive all Golden Eagle benefits plus Primo Golf and PXG partnerships with exclusive discounts. They can also reserve the entire facility for 3 hours once per year. Golden Eagle members get custom merchandise gifts, member mixers, and a 2-hour facility reservation annually. Both tiers include unlimited golf sessions with 24/7 access."
     }
   ]
 
